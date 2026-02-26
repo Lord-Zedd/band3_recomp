@@ -14,9 +14,9 @@ d3d12_readback_resolve = true
 [functions]
 0x82270000 = { name = "rex_sub_82270000", size = 0x14 }
 0x82270018 = { name = "rex_sub_82270018", size = 0x68 }
-0x82270080 = { name = "rex_sub_82270080", size = 0x108 }
+0x82270080 = { name = "App__RunWithoutDebugging", size = 0x108 }
 0x82270188 = { name = "rex_sub_82270188", size = 0x7C }
-0x82270210 = { name = "rex_sub_82270210", size = 0x50 }
+0x82270210 = { name = "FilePath____ct", size = 0x50 }
 0x82270260 = { name = "rex_sub_82270260", size = 0x28 }
 0x82270288 = { name = "rex_sub_82270288", size = 0xC }
 0x82270298 = { name = "rex_sub_82270298", size = 0x10 }
@@ -51,7 +51,7 @@ d3d12_readback_resolve = true
 0x82270DE8 = { name = "rex_sub_82270DE8", size = 0x28 }
 0x82270E10 = { name = "rex_sub_82270E10", size = 0x28 }
 0x82270E38 = { name = "rex_sub_82270E38", size = 0x28 }
-0x82270E68 = { name = "rex_sub_82270E68", size = 0x748 }
+0x82270E68 = { name = "App___ct", size = 0x748 }
 0x822715B0 = { name = "rex_sub_822715B0", size = 0x28 }
 0x822715D8 = { name = "rex_sub_822715D8", size = 0x20 }
 0x822715F8 = { name = "rex_sub_822715F8", size = 0x28 }
@@ -155,7 +155,7 @@ d3d12_readback_resolve = true
 0x82273D88 = { name = "rex_sub_82273D88", size = 0x24 }
 0x82273DB0 = { name = "rex_sub_82273DB0", size = 0x1C }
 0x82273DD0 = { name = "rex_sub_82273DD0", size = 0x10 }
-0x82273DE0 = { name = "rex_sub_82273DE0", size = 0x48 }
+0x82273DE0 = { name = "RndTex__NewObject", size = 0x48 }
 0x82273E28 = { name = "rex_sub_82273E28", size = 0xAC }
 0x82273ED8 = { name = "rex_sub_82273ED8", size = 0xC }
 0x82273EE8 = { name = "rex_sub_82273EE8", size = 0xC }
@@ -7640,7 +7640,7 @@ d3d12_readback_resolve = true
 0x823405F8 = { name = "rex_sub_823405F8", size = 0x74 }
 0x82340670 = { name = "rex_sub_82340670", size = 0x78 }
 0x823406E8 = { name = "rex_sub_823406E8", size = 0x10 }
-0x823406F8 = { name = "rex_sub_823406F8", size = 0x48 }
+0x823406F8 = { name = "BandLabel__SetDisplayText", size = 0x48 }
 0x82340740 = { name = "rex_sub_82340740", size = 0x64 }
 0x823407B0 = { name = "rex_sub_823407B0", size = 0x128 }
 0x823408D8 = { name = "rex_sub_823408D8", size = 0x20 }
@@ -8450,7 +8450,7 @@ d3d12_readback_resolve = true
 0x82359EA0 = { name = "rex_sub_82359EA0", size = 0x2C }
 0x82359ECC = { name = "rex_sub_82359ECC", size = 0x2C }
 0x82359EF8 = { name = "rex_sub_82359EF8", size = 0x2C }
-0x82359F28 = { name = "rex_sub_82359F28", size = 0xA0 }
+0x82359F28 = { name = "HmxObjectFactoryFunc___at", size = 0xA0 }
 0x82359FC8 = { name = "rex_sub_82359FC8", size = 0x4C }
 0x8235A020 = { name = "rex_sub_8235A020", size = 0xDC }
 0x8235A0FC = { name = "rex_sub_8235A0FC", size = 0x28 }
@@ -10247,7 +10247,7 @@ d3d12_readback_resolve = true
 0x8238B0D8 = { name = "rex_sub_8238B0D8", size = 0x20 }
 0x8238B0F8 = { name = "rex_sub_8238B0F8", size = 0x28 }
 0x8238B120 = { name = "rex_sub_8238B120", size = 0xC }
-0x8238B130 = { name = "rex_sub_8238B130", size = 0x68 }
+0x8238B130 = { name = "RndMat__SetDiffuseTex", size = 0x68 }
 0x8238B198 = { name = "rex_sub_8238B198", size = 0xCC }
 0x8238B270 = { name = "rex_sub_8238B270", size = 0x64 }
 0x8238B2D4 = { name = "rex_sub_8238B2D4", size = 0x28 }
@@ -14167,10 +14167,10 @@ d3d12_readback_resolve = true
 0x823FEFE0 = { name = "rex_sub_823FEFE0", size = 0xEC }
 0x823FF0D0 = { name = "rex_sub_823FF0D0", size = 0x120 }
 0x823FF1F0 = { name = "rex_sub_823FF1F0", size = 0x4C }
-0x823FF240 = { name = "rex_sub_823FF240", size = 0x1BC }
+0x823FF240 = { name = "RndTex__SetBitmap2", size = 0x1BC }
 0x823FF400 = { name = "rex_sub_823FF400", size = 0x10C }
-0x823FF510 = { name = "rex_sub_823FF510", size = 0x164 }
-0x823FF678 = { name = "rex_sub_823FF678", size = 0x5C }
+0x823FF510 = { name = "RndTex__SetBitmap3", size = 0x164 }
+0x823FF678 = { name = "RndTex__SetBitmap", size = 0x5C }
 0x823FF6E0 = { name = "rex_sub_823FF6E0", size = 0xF8 }
 0x823FF7D8 = { name = "rex_sub_823FF7D8", size = 0x28 }
 0x823FF800 = { name = "rex_sub_823FF800", size = 0x70 }
@@ -14732,7 +14732,7 @@ d3d12_readback_resolve = true
 0x8240F518 = { name = "rex_sub_8240F518", size = 0x28 }
 0x8240F548 = { name = "rex_sub_8240F548", size = 0x54 }
 0x8240F59C = { name = "rex_sub_8240F59C", size = 0x28 }
-0x8240F5D0 = { name = "rex_sub_8240F5D0", size = 0x54 }
+0x8240F5D0 = { name = "RndMat__NewObject", size = 0x54 }
 0x8240F624 = { name = "rex_sub_8240F624", size = 0x28 }
 0x8240F658 = { name = "rex_sub_8240F658", size = 0x70 }
 0x8240F6C8 = { name = "rex_sub_8240F6C8", size = 0x28 }
@@ -15445,7 +15445,7 @@ d3d12_readback_resolve = true
 0x82426C30 = { name = "rex_sub_82426C30", size = 0xAC }
 0x82426CE0 = { name = "rex_sub_82426CE0", size = 0x74 }
 0x82426D58 = { name = "rex_sub_82426D58", size = 0x74 }
-0x82426DD0 = { name = "rex_sub_82426DD0", size = 0x150 }
+0x82426DD0 = { name = "RndPropAnim__SetFrame", size = 0x150 }
 0x82426F20 = { name = "rex_sub_82426F20", size = 0x68 }
 0x82426F88 = { name = "rex_sub_82426F88", size = 0x28 }
 0x82426FB0 = { name = "rex_sub_82426FB0", size = 0x74 }
@@ -21455,7 +21455,7 @@ d3d12_readback_resolve = true
 0x824F7D18 = { name = "rex_sub_824F7D18", size = 0x28 }
 0x824F7D48 = { name = "rex_sub_824F7D48", size = 0xD8 }
 0x824F7E20 = { name = "rex_sub_824F7E20", size = 0x28 }
-0x824F7E50 = { name = "rex_sub_824F7E50", size = 0x150 }
+0x824F7E50 = { name = "RockCentralGateway__ExecuteConfig", size = 0x150 }
 0x824F7FA0 = { name = "rex_sub_824F7FA0", size = 0x28 }
 0x824F7FC8 = { name = "rex_sub_824F7FC8", size = 0x28 }
 0x824F7FF8 = { name = "rex_sub_824F7FF8", size = 0x98 }
@@ -22453,7 +22453,7 @@ d3d12_readback_resolve = true
 0x825129E0 = { name = "rex_sub_825129E0", size = 0xE0 }
 0x82512AC0 = { name = "rex_sub_82512AC0", size = 0x10 }
 0x82512AD0 = { name = "rex_sub_82512AD0", size = 0x28 }
-0x82512B00 = { name = "rex_sub_82512B00", size = 0xBC }
+0x82512B00 = { name = "Archive__SetLocationHardDrive", size = 0xBC }
 0x82512BBC = { name = "rex_sub_82512BBC", size = 0x28 }
 0x82512BE8 = { name = "rex_sub_82512BE8", size = 0x14 }
 0x82512C00 = { name = "rex_sub_82512C00", size = 0x74 }
@@ -22477,7 +22477,7 @@ d3d12_readback_resolve = true
 0x825138B8 = { name = "rex_sub_825138B8", size = 0x198 }
 0x82513A58 = { name = "rex_sub_82513A58", size = 0x2C }
 0x82513A88 = { name = "rex_sub_82513A88", size = 0x64 }
-0x82513AF8 = { name = "rex_sub_82513AF8", size = 0xCC }
+0x82513AF8 = { name = "Archive___dt", size = 0xCC }
 0x82513BC4 = { name = "rex_sub_82513BC4", size = 0x2C }
 0x82513BF0 = { name = "rex_sub_82513BF0", size = 0x2C }
 0x82513C1C = { name = "rex_sub_82513C1C", size = 0x2C }
@@ -22487,13 +22487,13 @@ d3d12_readback_resolve = true
 0x82513D10 = { name = "rex_sub_82513D10", size = 0xC8 }
 0x82513DD8 = { name = "rex_sub_82513DD8", size = 0x80 }
 0x82513E58 = { name = "rex_sub_82513E58", size = 0x88 }
-0x82513EE8 = { name = "rex_sub_82513EE8", size = 0x204 }
+0x82513EE8 = { name = "Archive__Merge", size = 0x204 }
 0x825140EC = { name = "rex_sub_825140EC", size = 0x28 }
 0x82514118 = { name = "rex_sub_82514118", size = 0x9C }
 0x825141C0 = { name = "rex_sub_825141C0", size = 0x1EC }
 0x825143AC = { name = "rex_sub_825143AC", size = 0x28 }
 0x825143D4 = { name = "rex_sub_825143D4", size = 0x28 }
-0x82514408 = { name = "rex_sub_82514408", size = 0xCC }
+0x82514408 = { name = "Archive___ct", size = 0xCC }
 0x825144D4 = { name = "rex_sub_825144D4", size = 0x2C }
 0x82514500 = { name = "rex_sub_82514500", size = 0x2C }
 0x8251452C = { name = "rex_sub_8251452C", size = 0x2C }
@@ -22571,7 +22571,7 @@ d3d12_readback_resolve = true
 0x825162B0 = { name = "rex_sub_825162B0", size = 0x20 }
 0x825162D0 = { name = "rex_sub_825162D0", size = 0x20 }
 0x825162F0 = { name = "rex_sub_825162F0", size = 0x28 }
-0x82516320 = { name = "rex_sub_82516320", size = 0xD0 }
+0x82516320 = { name = "PlatformMgr__SetDiskError", size = 0xD0 }
 0x825163F0 = { name = "rex_sub_825163F0", size = 0x20 }
 0x82516410 = { name = "rex_sub_82516410", size = 0xC }
 0x82516420 = { name = "rex_sub_82516420", size = 0xC }
@@ -22928,7 +22928,7 @@ d3d12_readback_resolve = true
 0x8251FACC = { name = "rex_sub_8251FACC", size = 0x28 }
 0x8251FAF8 = { name = "rex_sub_8251FAF8", size = 0x1C }
 0x8251FB18 = { name = "rex_sub_8251FB18", size = 0x20 }
-0x8251FB40 = { name = "rex_sub_8251FB40", size = 0xF0 }
+0x8251FB40 = { name = "XboxContent____ct", size = 0xF0 }
 0x8251FC30 = { name = "rex_sub_8251FC30", size = 0x28 }
 0x8251FC58 = { name = "rex_sub_8251FC58", size = 0x2C }
 0x8251FC84 = { name = "rex_sub_8251FC84", size = 0x2C }
@@ -23129,7 +23129,7 @@ d3d12_readback_resolve = true
 0x82524C20 = { name = "rex_sub_82524C20", size = 0xB4 }
 0x82524CD8 = { name = "rex_sub_82524CD8", size = 0x68 }
 0x82524D40 = { name = "rex_sub_82524D40", size = 0xA0 }
-0x82524DE0 = { name = "rex_sub_82524DE0", size = 0x54 }
+0x82524DE0 = { name = "StageKit__SetState", size = 0x54 }
 0x82524E38 = { name = "rex_sub_82524E38", size = 0xA8 }
 0x82524EE8 = { name = "rex_sub_82524EE8", size = 0x380 }
 0x82525268 = { name = "rex_sub_82525268", size = 0x20 }
@@ -23794,7 +23794,7 @@ d3d12_readback_resolve = true
 0x82537364 = { name = "rex_sub_82537364", size = 0x28 }
 0x82537398 = { name = "rex_sub_82537398", size = 0x6C }
 0x82537404 = { name = "rex_sub_82537404", size = 0x28 }
-0x82537430 = { name = "rex_sub_82537430", size = 0xA4 }
+0x82537430 = { name = "Object__Find_UIPanel_", size = 0xA4 }
 0x825374D8 = { name = "rex_sub_825374D8", size = 0x10 }
 0x825374E8 = { name = "rex_sub_825374E8", size = 0x54 }
 0x82537548 = { name = "rex_sub_82537548", size = 0x84 }
@@ -23969,7 +23969,7 @@ d3d12_readback_resolve = true
 0x8253B348 = { name = "rex_sub_8253B348", size = 0x4C }
 0x8253B398 = { name = "rex_sub_8253B398", size = 0x5C }
 0x8253B3F8 = { name = "rex_sub_8253B3F8", size = 0x40 }
-0x8253B440 = { name = "rex_sub_8253B440", size = 0x3C4 }
+0x8253B440 = { name = "MusicLibrary__Mat", size = 0x3C4 }
 0x8253B804 = { name = "rex_sub_8253B804", size = 0x20 }
 0x8253B824 = { name = "rex_sub_8253B824", size = 0x20 }
 0x8253B844 = { name = "rex_sub_8253B844", size = 0x20 }
@@ -24113,7 +24113,7 @@ d3d12_readback_resolve = true
 0x82540298 = { name = "rex_sub_82540298", size = 0x64 }
 0x82540300 = { name = "rex_sub_82540300", size = 0x58 }
 0x82540358 = { name = "rex_sub_82540358", size = 0xF8 }
-0x82540450 = { name = "rex_sub_82540450", size = 0x40 }
+0x82540450 = { name = "MusicLibrary__OnExit", size = 0x40 }
 0x82540498 = { name = "rex_sub_82540498", size = 0x134 }
 0x825405CC = { name = "rex_sub_825405CC", size = 0x20 }
 0x825405EC = { name = "rex_sub_825405EC", size = 0x20 }
@@ -24173,7 +24173,7 @@ d3d12_readback_resolve = true
 0x82542194 = { name = "rex_sub_82542194", size = 0x20 }
 0x825421B4 = { name = "rex_sub_825421B4", size = 0x28 }
 0x825421E0 = { name = "rex_sub_825421E0", size = 0x4C }
-0x82542238 = { name = "rex_sub_82542238", size = 0x700 }
+0x82542238 = { name = "MusicLibrary__OnEnter", size = 0x700 }
 0x82542938 = { name = "rex_sub_82542938", size = 0x20 }
 0x82542958 = { name = "rex_sub_82542958", size = 0x20 }
 0x82542978 = { name = "rex_sub_82542978", size = 0x20 }
@@ -24265,7 +24265,7 @@ d3d12_readback_resolve = true
 0x82545040 = { name = "rex_sub_82545040", size = 0x130 }
 0x82545170 = { name = "rex_sub_82545170", size = 0x28 }
 0x82545198 = { name = "rex_sub_82545198", size = 0x28 }
-0x825451C8 = { name = "rex_sub_825451C8", size = 0x234 }
+0x825451C8 = { name = "MusicLibrary____ct", size = 0x234 }
 0x825453FC = { name = "rex_sub_825453FC", size = 0x28 }
 0x82545424 = { name = "rex_sub_82545424", size = 0x2C }
 0x82545450 = { name = "rex_sub_82545450", size = 0x2C }
@@ -26175,11 +26175,11 @@ d3d12_readback_resolve = true
 0x82576FE8 = { name = "rex_sub_82576FE8", size = 0x50 }
 0x82577038 = { name = "rex_sub_82577038", size = 0x64 }
 0x825770A0 = { name = "rex_sub_825770A0", size = 0x9C }
-0x82577140 = { name = "rex_sub_82577140", size = 0x88 }
+0x82577140 = { name = "BandSongMgr__GetSongIDFromShortname", size = 0x88 }
 0x825771C8 = { name = "rex_sub_825771C8", size = 0x64 }
 0x82577230 = { name = "rex_sub_82577230", size = 0x6C }
 0x825772A0 = { name = "rex_sub_825772A0", size = 0x9C }
-0x82577340 = { name = "rex_sub_82577340", size = 0x140 }
+0x82577340 = { name = "BandSongMgr__GetRankedSongs", size = 0x140 }
 0x82577480 = { name = "rex_sub_82577480", size = 0xFC }
 0x82577580 = { name = "rex_sub_82577580", size = 0x88 }
 0x82577610 = { name = "rex_sub_82577610", size = 0x1FC }
@@ -26365,7 +26365,7 @@ d3d12_readback_resolve = true
 0x8257C430 = { name = "rex_sub_8257C430", size = 0x28 }
 0x8257C458 = { name = "rex_sub_8257C458", size = 0x28 }
 0x8257C480 = { name = "rex_sub_8257C480", size = 0x14 }
-0x8257C498 = { name = "rex_sub_8257C498", size = 0x80 }
+0x8257C498 = { name = "MetaPerformer__GetSongShortname", size = 0x80 }
 0x8257C518 = { name = "rex_sub_8257C518", size = 0x60 }
 0x8257C578 = { name = "rex_sub_8257C578", size = 0x4C }
 0x8257C5C8 = { name = "rex_sub_8257C5C8", size = 0xC8 }
@@ -26392,7 +26392,7 @@ d3d12_readback_resolve = true
 0x8257D008 = { name = "rex_sub_8257D008", size = 0x16C }
 0x8257D174 = { name = "rex_sub_8257D174", size = 0x20 }
 0x8257D194 = { name = "rex_sub_8257D194", size = 0x20 }
-0x8257D1C0 = { name = "rex_sub_8257D1C0", size = 0x164 }
+0x8257D1C0 = { name = "MetaPerformer__SetVenue", size = 0x164 }
 0x8257D324 = { name = "rex_sub_8257D324", size = 0x20 }
 0x8257D344 = { name = "rex_sub_8257D344", size = 0x20 }
 0x8257D368 = { name = "rex_sub_8257D368", size = 0x114 }
@@ -26788,7 +26788,7 @@ d3d12_readback_resolve = true
 0x82588D00 = { name = "rex_sub_82588D00", size = 0xC }
 0x82588D10 = { name = "rex_sub_82588D10", size = 0x54 }
 0x82588D68 = { name = "rex_sub_82588D68", size = 0x14 }
-0x82588D80 = { name = "rex_sub_82588D80", size = 0x64 }
+0x82588D80 = { name = "ModifierManager__ModifierActive", size = 0x64 }
 0x82588DF0 = { name = "rex_sub_82588DF0", size = 0x64 }
 0x82588E54 = { name = "rex_sub_82588E54", size = 0x20 }
 0x82588E80 = { name = "rex_sub_82588E80", size = 0x84 }
@@ -26829,7 +26829,7 @@ d3d12_readback_resolve = true
 0x82589BF0 = { name = "rex_sub_82589BF0", size = 0x2C }
 0x82589C20 = { name = "rex_sub_82589C20", size = 0x10 }
 0x82589C30 = { name = "rex_sub_82589C30", size = 0xC }
-0x82589C48 = { name = "rex_sub_82589C48", size = 0x1DC }
+0x82589C48 = { name = "ModifierManager____ct", size = 0x1DC }
 0x82589E24 = { name = "rex_sub_82589E24", size = 0x44 }
 0x82589E68 = { name = "rex_sub_82589E68", size = 0x2C }
 0x82589E94 = { name = "rex_sub_82589E94", size = 0x28 }
@@ -27328,7 +27328,7 @@ d3d12_readback_resolve = true
 0x82595F18 = { name = "rex_sub_82595F18", size = 0x58 }
 0x82595F70 = { name = "rex_sub_82595F70", size = 0x18 }
 0x82595F88 = { name = "rex_sub_82595F88", size = 0x6C }
-0x82595FF8 = { name = "rex_sub_82595FF8", size = 0x10 }
+0x82595FF8 = { name = "SongSortMgr__GetSort", size = 0x10 }
 0x82596008 = { name = "rex_sub_82596008", size = 0x10 }
 0x82596018 = { name = "rex_sub_82596018", size = 0x30 }
 0x82596048 = { name = "rex_sub_82596048", size = 0x5C }
@@ -27877,7 +27877,7 @@ d3d12_readback_resolve = true
 0x825A3E30 = { name = "rex_sub_825A3E30", size = 0x80 }
 0x825A3EB8 = { name = "rex_sub_825A3EB8", size = 0x70 }
 0x825A3F28 = { name = "rex_sub_825A3F28", size = 0x28 }
-0x825A3F58 = { name = "rex_sub_825A3F58", size = 0x364 }
+0x825A3F58 = { name = "SongMetadata__Load", size = 0x364 }
 0x825A42BC = { name = "rex_sub_825A42BC", size = 0x28 }
 0x825A42E4 = { name = "rex_sub_825A42E4", size = 0x28 }
 0x825A430C = { name = "rex_sub_825A430C", size = 0x28 }
@@ -28886,7 +28886,7 @@ d3d12_readback_resolve = true
 0x825BF610 = { name = "rex_sub_825BF610", size = 0x14 }
 0x825BF628 = { name = "rex_sub_825BF628", size = 0x6C }
 0x825BF698 = { name = "rex_sub_825BF698", size = 0x6C }
-0x825BF708 = { name = "rex_sub_825BF708", size = 0x10 }
+0x825BF708 = { name = "MusicLibrary__GetNodeByIndex", size = 0x10 }
 0x825BF718 = { name = "rex_sub_825BF718", size = 0x94 }
 0x825BF7B8 = { name = "rex_sub_825BF7B8", size = 0xD4 }
 0x825BF88C = { name = "rex_sub_825BF88C", size = 0x20 }
@@ -29128,7 +29128,7 @@ d3d12_readback_resolve = true
 0x825C5590 = { name = "rex_sub_825C5590", size = 0x54 }
 0x825C55E8 = { name = "rex_sub_825C55E8", size = 0x54 }
 0x825C5640 = { name = "rex_sub_825C5640", size = 0x60 }
-0x825C56A0 = { name = "rex_sub_825C56A0", size = 0x60 }
+0x825C56A0 = { name = "BandLabel__SetSongNameFromNode", size = 0x60 }
 0x825C5700 = { name = "rex_sub_825C5700", size = 0x60 }
 0x825C5760 = { name = "rex_sub_825C5760", size = 0x5C }
 0x825C57C8 = { name = "rex_sub_825C57C8", size = 0xEC }
@@ -29170,7 +29170,7 @@ d3d12_readback_resolve = true
 0x825C6640 = { name = "rex_sub_825C6640", size = 0x20 }
 0x825C6660 = { name = "rex_sub_825C6660", size = 0x20 }
 0x825C6680 = { name = "rex_sub_825C6680", size = 0x6C }
-0x825C66F8 = { name = "rex_sub_825C66F8", size = 0x14C }
+0x825C66F8 = { name = "BandLabel__SetSongAndArtistName", size = 0x14C }
 0x825C6844 = { name = "rex_sub_825C6844", size = 0x20 }
 0x825C6864 = { name = "rex_sub_825C6864", size = 0x20 }
 0x825C6884 = { name = "rex_sub_825C6884", size = 0x28 }
@@ -30801,12 +30801,12 @@ d3d12_readback_resolve = true
 0x825F215C = { name = "rex_sub_825F215C", size = 0x28 }
 0x825F2184 = { name = "rex_sub_825F2184", size = 0x28 }
 0x825F21B0 = { name = "rex_sub_825F21B0", size = 0x58 }
-0x825F2210 = { name = "rex_sub_825F2210", size = 0xAC }
+0x825F2210 = { name = "DynamicTex____dt", size = 0xAC }
 0x825F22BC = { name = "rex_sub_825F22BC", size = 0x2C }
 0x825F22E8 = { name = "rex_sub_825F22E8", size = 0x8 }
 0x825F22F0 = { name = "rex_sub_825F22F0", size = 0x18 }
 0x825F2308 = { name = "rex_sub_825F2308", size = 0x4 }
-0x825F2318 = { name = "rex_sub_825F2318", size = 0x110 }
+0x825F2318 = { name = "DynamicTex____ct", size = 0x110 }
 0x825F2428 = { name = "rex_sub_825F2428", size = 0x2C }
 0x825F2454 = { name = "rex_sub_825F2454", size = 0x28 }
 0x825F2480 = { name = "rex_sub_825F2480", size = 0x4C }
@@ -32809,7 +32809,7 @@ d3d12_readback_resolve = true
 0x82628D74 = { name = "rex_sub_82628D74", size = 0x20 }
 0x82628DA0 = { name = "rex_sub_82628DA0", size = 0x84 }
 0x82628E24 = { name = "rex_sub_82628E24", size = 0x20 }
-0x82628E50 = { name = "rex_sub_82628E50", size = 0xA8 }
+0x82628E50 = { name = "PassiveMessagesPanel__QueueMessage", size = 0xA8 }
 0x82628EF8 = { name = "rex_sub_82628EF8", size = 0x28 }
 0x82628F20 = { name = "rex_sub_82628F20", size = 0xC }
 0x82628F30 = { name = "rex_sub_82628F30", size = 0xC }
@@ -34743,21 +34743,21 @@ d3d12_readback_resolve = true
 0x8265B898 = { name = "rex_sub_8265B898", size = 0x20 }
 0x8265B8B8 = { name = "rex_sub_8265B8B8", size = 0x28 }
 0x8265B8E0 = { name = "rex_sub_8265B8E0", size = 0x28 }
-0x8265B910 = { name = "rex_sub_8265B910", size = 0x1A0 }
+0x8265B910 = { name = "SongSortByRecent__GetGameOriginBySymbol", size = 0x1A0 }
 0x8265BAB0 = { name = "rex_sub_8265BAB0", size = 0x20 }
 0x8265BAD0 = { name = "rex_sub_8265BAD0", size = 0x20 }
 0x8265BAF0 = { name = "rex_sub_8265BAF0", size = 0x20 }
 0x8265BB10 = { name = "rex_sub_8265BB10", size = 0x20 }
 0x8265BB30 = { name = "rex_sub_8265BB30", size = 0x20 }
 0x8265BB50 = { name = "rex_sub_8265BB50", size = 0x20 }
-0x8265BB78 = { name = "rex_sub_8265BB78", size = 0x1A4 }
+0x8265BB78 = { name = "SongSortByRecent__GetSymbolByGameOrigin", size = 0x1A4 }
 0x8265BD1C = { name = "rex_sub_8265BD1C", size = 0x20 }
 0x8265BD3C = { name = "rex_sub_8265BD3C", size = 0x20 }
 0x8265BD5C = { name = "rex_sub_8265BD5C", size = 0x20 }
 0x8265BD7C = { name = "rex_sub_8265BD7C", size = 0x20 }
 0x8265BD9C = { name = "rex_sub_8265BD9C", size = 0x20 }
 0x8265BDBC = { name = "rex_sub_8265BDBC", size = 0x20 }
-0x8265BDE8 = { name = "rex_sub_8265BDE8", size = 0x7C }
+0x8265BDE8 = { name = "RecentCmp____ct", size = 0x7C }
 0x8265BE64 = { name = "rex_sub_8265BE64", size = 0x28 }
 0x8265BE90 = { name = "rex_sub_8265BE90", size = 0x70 }
 0x8265BF08 = { name = "rex_sub_8265BF08", size = 0xAC }
@@ -35248,7 +35248,7 @@ d3d12_readback_resolve = true
 0x82668BC0 = { name = "rex_sub_82668BC0", size = 0x28 }
 0x82668BE8 = { name = "rex_sub_82668BE8", size = 0x2C }
 0x82668C18 = { name = "rex_sub_82668C18", size = 0x4C }
-0x82668C70 = { name = "rex_sub_82668C70", size = 0x4CC }
+0x82668C70 = { name = "OvershellPartSelectProvider__Reload", size = 0x4CC }
 0x8266913C = { name = "rex_sub_8266913C", size = 0x20 }
 0x8266915C = { name = "rex_sub_8266915C", size = 0x20 }
 0x8266917C = { name = "rex_sub_8266917C", size = 0x20 }
@@ -35943,13 +35943,13 @@ d3d12_readback_resolve = true
 0x82678B40 = { name = "rex_sub_82678B40", size = 0x70 }
 0x82678BB8 = { name = "rex_sub_82678BB8", size = 0xB0 }
 0x82678C68 = { name = "rex_sub_82678C68", size = 0x20 }
-0x82678C88 = { name = "rex_sub_82678C88", size = 0x74 }
+0x82678C88 = { name = "Game__SetMusicSpeed", size = 0x74 }
 0x82678D00 = { name = "rex_sub_82678D00", size = 0x7C }
 0x82678D80 = { name = "rex_sub_82678D80", size = 0x50 }
 0x82678DD0 = { name = "rex_sub_82678DD0", size = 0x54 }
 0x82678E28 = { name = "rex_sub_82678E28", size = 0x14 }
 0x82678E40 = { name = "rex_sub_82678E40", size = 0x44 }
-0x82678E88 = { name = "rex_sub_82678E88", size = 0x10 }
+0x82678E88 = { name = "Game__GetActivePlayer", size = 0x10 }
 0x82678E98 = { name = "rex_sub_82678E98", size = 0xB4 }
 0x82678F50 = { name = "rex_sub_82678F50", size = 0x5C }
 0x82678FB0 = { name = "rex_sub_82678FB0", size = 0x54 }
@@ -36009,7 +36009,7 @@ d3d12_readback_resolve = true
 0x8267B128 = { name = "rex_sub_8267B128", size = 0x28 }
 0x8267B150 = { name = "rex_sub_8267B150", size = 0x50 }
 0x8267B1A0 = { name = "rex_sub_8267B1A0", size = 0x4C }
-0x8267B1F0 = { name = "rex_sub_8267B1F0", size = 0x4C }
+0x8267B1F0 = { name = "Game____dt", size = 0x4C }
 0x8267B240 = { name = "rex_sub_8267B240", size = 0x198 }
 0x8267B3D8 = { name = "rex_sub_8267B3D8", size = 0x84 }
 0x8267B460 = { name = "rex_sub_8267B460", size = 0x18 }
@@ -36023,7 +36023,7 @@ d3d12_readback_resolve = true
 0x8267BEC8 = { name = "rex_sub_8267BEC8", size = 0x20 }
 0x8267BEE8 = { name = "rex_sub_8267BEE8", size = 0x20 }
 0x8267BF08 = { name = "rex_sub_8267BF08", size = 0x20 }
-0x8267BF30 = { name = "rex_sub_8267BF30", size = 0x5E0 }
+0x8267BF30 = { name = "Game____ct", size = 0x5E0 }
 0x8267C510 = { name = "rex_sub_8267C510", size = 0x28 }
 0x8267C538 = { name = "rex_sub_8267C538", size = 0x2C }
 0x8267C564 = { name = "rex_sub_8267C564", size = 0x28 }
@@ -36149,7 +36149,7 @@ d3d12_readback_resolve = true
 0x826803C4 = { name = "rex_sub_826803C4", size = 0x20 }
 0x826803E4 = { name = "rex_sub_826803E4", size = 0x20 }
 0x82680404 = { name = "rex_sub_82680404", size = 0x20 }
-0x82680430 = { name = "rex_sub_82680430", size = 0x274 }
+0x82680430 = { name = "PresenceMgr__UpdatePresence", size = 0x274 }
 0x826806A4 = { name = "rex_sub_826806A4", size = 0x28 }
 0x826806D0 = { name = "rex_sub_826806D0", size = 0x54 }
 0x82680730 = { name = "rex_sub_82680730", size = 0x38C }
@@ -36245,7 +36245,7 @@ d3d12_readback_resolve = true
 0x82682A48 = { name = "rex_sub_82682A48", size = 0x38 }
 0x82682A80 = { name = "rex_sub_82682A80", size = 0x34 }
 0x82682AB8 = { name = "rex_sub_82682AB8", size = 0xA8 }
-0x82682B60 = { name = "rex_sub_82682B60", size = 0x64 }
+0x82682B60 = { name = "BandUserMgr__GetBandUserFromSlot", size = 0x64 }
 0x82682BC8 = { name = "rex_sub_82682BC8", size = 0x80 }
 0x82682C48 = { name = "rex_sub_82682C48", size = 0x38 }
 0x82682C80 = { name = "rex_sub_82682C80", size = 0x88 }
@@ -36273,7 +36273,7 @@ d3d12_readback_resolve = true
 0x82683A3C = { name = "rex_sub_82683A3C", size = 0x28 }
 0x82683A70 = { name = "rex_sub_82683A70", size = 0xD8 }
 0x82683B48 = { name = "rex_sub_82683B48", size = 0x28 }
-0x82683B78 = { name = "rex_sub_82683B78", size = 0x184 }
+0x82683B78 = { name = "BandUserMgr__GetBandUsers", size = 0x184 }
 0x82683CFC = { name = "rex_sub_82683CFC", size = 0x28 }
 0x82683D24 = { name = "rex_sub_82683D24", size = 0x28 }
 0x82683D50 = { name = "rex_sub_82683D50", size = 0x8 }
@@ -41048,7 +41048,7 @@ d3d12_readback_resolve = true
 0x8270F9C4 = { name = "rex_sub_8270F9C4", size = 0x2C }
 0x8270F9F0 = { name = "rex_sub_8270F9F0", size = 0x2C }
 0x8270FA20 = { name = "rex_sub_8270FA20", size = 0x94 }
-0x8270FAB8 = { name = "rex_sub_8270FAB8", size = 0x38 }
+0x8270FAB8 = { name = "MetaMusic__Loaded", size = 0x38 }
 0x8270FAF0 = { name = "rex_sub_8270FAF0", size = 0x8 }
 0x8270FAF8 = { name = "rex_sub_8270FAF8", size = 0x18 }
 0x8270FB10 = { name = "rex_sub_8270FB10", size = 0x18 }
@@ -41082,7 +41082,7 @@ d3d12_readback_resolve = true
 0x82710878 = { name = "rex_sub_82710878", size = 0x74 }
 0x827108F8 = { name = "rex_sub_827108F8", size = 0x188 }
 0x82710A80 = { name = "rex_sub_82710A80", size = 0x28 }
-0x82710AB0 = { name = "rex_sub_82710AB0", size = 0x234 }
+0x82710AB0 = { name = "MetaMusic__Load", size = 0x234 }
 0x82710CE4 = { name = "rex_sub_82710CE4", size = 0x28 }
 0x82710D10 = { name = "rex_sub_82710D10", size = 0xAC }
 0x82710DC8 = { name = "rex_sub_82710DC8", size = 0x148 }
@@ -41100,7 +41100,7 @@ d3d12_readback_resolve = true
 0x827113AC = { name = "rex_sub_827113AC", size = 0x2C }
 0x827113D8 = { name = "rex_sub_827113D8", size = 0x2C }
 0x82711404 = { name = "rex_sub_82711404", size = 0x2C }
-0x82711438 = { name = "rex_sub_82711438", size = 0x254 }
+0x82711438 = { name = "MetaMusic__Poll", size = 0x254 }
 0x8271168C = { name = "rex_sub_8271168C", size = 0x20 }
 0x827116AC = { name = "rex_sub_827116AC", size = 0x28 }
 0x827116D4 = { name = "rex_sub_827116D4", size = 0x28 }
@@ -41111,7 +41111,7 @@ d3d12_readback_resolve = true
 0x827118F8 = { name = "rex_sub_827118F8", size = 0xB4 }
 0x827119AC = { name = "rex_sub_827119AC", size = 0x28 }
 0x827119D4 = { name = "rex_sub_827119D4", size = 0x28 }
-0x82711A00 = { name = "rex_sub_82711A00", size = 0x248 }
+0x82711A00 = { name = "MetaMusic__Start", size = 0x248 }
 0x82711C48 = { name = "rex_sub_82711C48", size = 0x8C }
 0x82711CE0 = { name = "rex_sub_82711CE0", size = 0x1E8 }
 0x82711EC8 = { name = "rex_sub_82711EC8", size = 0x20 }
@@ -42300,7 +42300,7 @@ d3d12_readback_resolve = true
 0x8273A100 = { name = "rex_sub_8273A100", size = 0x94 }
 0x8273A198 = { name = "rex_sub_8273A198", size = 0x54 }
 0x8273A1F0 = { name = "rex_sub_8273A1F0", size = 0x180 }
-0x8273A370 = { name = "rex_sub_8273A370", size = 0x5C }
+0x8273A370 = { name = "DxRnd__Suspend", size = 0x5C }
 0x8273A3D0 = { name = "rex_sub_8273A3D0", size = 0x58 }
 0x8273A428 = { name = "rex_sub_8273A428", size = 0x48 }
 0x8273A478 = { name = "rex_sub_8273A478", size = 0xFC }
@@ -42925,13 +42925,13 @@ d3d12_readback_resolve = true
 0x8274AD78 = { name = "rex_sub_8274AD78", size = 0x2C }
 0x8274ADA8 = { name = "rex_sub_8274ADA8", size = 0x7C }
 0x8274AE28 = { name = "rex_sub_8274AE28", size = 0x64 }
-0x8274AE98 = { name = "rex_sub_8274AE98", size = 0xA8 }
+0x8274AE98 = { name = "DataNode__Evaluate", size = 0xA8 }
 0x8274AF40 = { name = "rex_sub_8274AF40", size = 0x28 }
 0x8274AF68 = { name = "rex_sub_8274AF68", size = 0x3C }
 0x8274AFA8 = { name = "rex_sub_8274AFA8", size = 0x58 }
 0x8274B000 = { name = "rex_sub_8274B000", size = 0x3C }
 0x8274B040 = { name = "rex_sub_8274B040", size = 0x48 }
-0x8274B088 = { name = "rex_sub_8274B088", size = 0x6C }
+0x8274B088 = { name = "DataNode__GetObj", size = 0x6C }
 0x8274B0F8 = { name = "rex_sub_8274B0F8", size = 0x24 }
 0x8274B120 = { name = "rex_sub_8274B120", size = 0x7C }
 0x8274B1A0 = { name = "rex_sub_8274B1A0", size = 0x48 }
@@ -42967,14 +42967,14 @@ d3d12_readback_resolve = true
 0x8274C4E0 = { name = "rex_sub_8274C4E0", size = 0x38 }
 0x8274C518 = { name = "rex_sub_8274C518", size = 0x40 }
 0x8274C558 = { name = "rex_sub_8274C558", size = 0x48 }
-0x8274C5A0 = { name = "rex_sub_8274C5A0", size = 0x4C }
+0x8274C5A0 = { name = "DataArray__FindArray", size = 0x4C }
 0x8274C5F0 = { name = "rex_sub_8274C5F0", size = 0x38 }
 0x8274C628 = { name = "rex_sub_8274C628", size = 0x58 }
 0x8274C680 = { name = "rex_sub_8274C680", size = 0x68 }
 0x8274C6E8 = { name = "rex_sub_8274C6E8", size = 0x54 }
 0x8274C740 = { name = "rex_sub_8274C740", size = 0x5C }
 0x8274C7A0 = { name = "rex_sub_8274C7A0", size = 0x50 }
-0x8274C7F0 = { name = "rex_sub_8274C7F0", size = 0x54 }
+0x8274C7F0 = { name = "DataArray__FindData", size = 0x54 }
 0x8274C848 = { name = "rex_sub_8274C848", size = 0x54 }
 0x8274C8A0 = { name = "rex_sub_8274C8A0", size = 0x60 }
 0x8274C900 = { name = "rex_sub_8274C900", size = 0x9C }
@@ -42993,7 +42993,7 @@ d3d12_readback_resolve = true
 0x8274D0D8 = { name = "rex_sub_8274D0D8", size = 0x28 }
 0x8274D100 = { name = "rex_sub_8274D100", size = 0x28 }
 0x8274D128 = { name = "rex_sub_8274D128", size = 0x64 }
-0x8274D198 = { name = "rex_sub_8274D198", size = 0x1F8 }
+0x8274D198 = { name = "DataArray__Execute", size = 0x1F8 }
 0x8274D390 = { name = "rex_sub_8274D390", size = 0x28 }
 0x8274D3B8 = { name = "rex_sub_8274D3B8", size = 0x28 }
 0x8274D3E0 = { name = "rex_sub_8274D3E0", size = 0x28 }
@@ -44090,7 +44090,7 @@ d3d12_readback_resolve = true
 0x82770630 = { name = "rex_sub_82770630", size = 0x1C }
 0x82770650 = { name = "rex_sub_82770650", size = 0x90 }
 0x827706E0 = { name = "rex_sub_827706E0", size = 0x30 }
-0x82770730 = { name = "rex_sub_82770730", size = 0x18 }
+0x82770730 = { name = "SongData__GetGameList", size = 0x18 }
 0x82770748 = { name = "rex_sub_82770748", size = 0x94 }
 0x827707E0 = { name = "rex_sub_827707E0", size = 0x1C }
 0x82770800 = { name = "rex_sub_82770800", size = 0x54 }
@@ -44130,7 +44130,7 @@ d3d12_readback_resolve = true
 0x82771798 = { name = "rex_sub_82771798", size = 0x70 }
 0x82771808 = { name = "rex_sub_82771808", size = 0x74 }
 0x82771880 = { name = "rex_sub_82771880", size = 0x130 }
-0x827719B0 = { name = "rex_sub_827719B0", size = 0xBC }
+0x827719B0 = { name = "SongData__AddMultiGem", size = 0xBC }
 0x82771A70 = { name = "rex_sub_82771A70", size = 0x9C }
 0x82771B10 = { name = "rex_sub_82771B10", size = 0x8C }
 0x82771BA0 = { name = "rex_sub_82771BA0", size = 0x88 }
@@ -44671,7 +44671,7 @@ d3d12_readback_resolve = true
 0x82783A70 = { name = "rex_sub_82783A70", size = 0x154 }
 0x82783BC4 = { name = "rex_sub_82783BC4", size = 0x28 }
 0x82783BEC = { name = "rex_sub_82783BEC", size = 0x28 }
-0x82783C20 = { name = "rex_sub_82783C20", size = 0x134 }
+0x82783C20 = { name = "SongParser__PitchToSlot", size = 0x134 }
 0x82783D54 = { name = "rex_sub_82783D54", size = 0x20 }
 0x82783D74 = { name = "rex_sub_82783D74", size = 0x28 }
 0x82783D9C = { name = "rex_sub_82783D9C", size = 0x28 }
@@ -44908,7 +44908,7 @@ d3d12_readback_resolve = true
 0x8278CB20 = { name = "rex_sub_8278CB20", size = 0x10 }
 0x8278CB30 = { name = "rex_sub_8278CB30", size = 0x4C }
 0x8278CB80 = { name = "rex_sub_8278CB80", size = 0x28 }
-0x8278CBB0 = { name = "rex_sub_8278CBB0", size = 0x170 }
+0x8278CBB0 = { name = "GameGemList__WillBeNoStrum", size = 0x170 }
 0x8278CD20 = { name = "rex_sub_8278CD20", size = 0x20 }
 0x8278CD40 = { name = "rex_sub_8278CD40", size = 0x98 }
 0x8278CDD8 = { name = "rex_sub_8278CDD8", size = 0x6C }
@@ -44956,7 +44956,7 @@ d3d12_readback_resolve = true
 0x8278E398 = { name = "rex_sub_8278E398", size = 0x11C }
 0x8278E4B4 = { name = "rex_sub_8278E4B4", size = 0x28 }
 0x8278E4E0 = { name = "rex_sub_8278E4E0", size = 0x48 }
-0x8278E530 = { name = "rex_sub_8278E530", size = 0x110 }
+0x8278E530 = { name = "GameGemList__AddGameGem", size = 0x110 }
 0x8278E640 = { name = "rex_sub_8278E640", size = 0x28 }
 0x8278E670 = { name = "rex_sub_8278E670", size = 0x48 }
 0x8278E6B8 = { name = "rex_sub_8278E6B8", size = 0x28 }
@@ -45153,12 +45153,12 @@ d3d12_readback_resolve = true
 0x82792FB0 = { name = "rex_sub_82792FB0", size = 0xA0 }
 0x82793050 = { name = "rex_sub_82793050", size = 0x28 }
 0x82793078 = { name = "rex_sub_82793078", size = 0x5C }
-0x827930D8 = { name = "rex_sub_827930D8", size = 0x14 }
+0x827930D8 = { name = "GameGemDB__AddMultiGem", size = 0x14 }
 0x827930F0 = { name = "rex_sub_827930F0", size = 0x14 }
 0x82793108 = { name = "rex_sub_82793108", size = 0x5C }
 0x82793168 = { name = "rex_sub_82793168", size = 0x5C }
 0x827931C8 = { name = "rex_sub_827931C8", size = 0x10 }
-0x827931E0 = { name = "rex_sub_827931E0", size = 0x90 }
+0x827931E0 = { name = "GameGemDB____ct", size = 0x90 }
 0x82793270 = { name = "rex_sub_82793270", size = 0x28 }
 0x82793298 = { name = "rex_sub_82793298", size = 0x28 }
 0x827932C8 = { name = "rex_sub_827932C8", size = 0xA4 }
@@ -45864,7 +45864,7 @@ d3d12_readback_resolve = true
 0x827A8CD0 = { name = "rex_sub_827A8CD0", size = 0x78 }
 0x827A8D50 = { name = "rex_sub_827A8D50", size = 0xB4 }
 0x827A8E04 = { name = "rex_sub_827A8E04", size = 0x28 }
-0x827A8E30 = { name = "rex_sub_827A8E30", size = 0x98 }
+0x827A8E30 = { name = "BandSongMgr__Data", size = 0x98 }
 0x827A8EC8 = { name = "rex_sub_827A8EC8", size = 0x90 }
 0x827A8F58 = { name = "rex_sub_827A8F58", size = 0x44 }
 0x827A8FA0 = { name = "rex_sub_827A8FA0", size = 0x80 }
@@ -45919,7 +45919,7 @@ d3d12_readback_resolve = true
 0x827AA5F0 = { name = "rex_sub_827AA5F0", size = 0x78 }
 0x827AA668 = { name = "rex_sub_827AA668", size = 0x28 }
 0x827AA690 = { name = "rex_sub_827AA690", size = 0x4C }
-0x827AA6E8 = { name = "rex_sub_827AA6E8", size = 0x448 }
+0x827AA6E8 = { name = "SongMetadata____ct", size = 0x448 }
 0x827AAB30 = { name = "rex_sub_827AAB30", size = 0x28 }
 0x827AAB58 = { name = "rex_sub_827AAB58", size = 0x20 }
 0x827AAB78 = { name = "rex_sub_827AAB78", size = 0x20 }
@@ -46757,11 +46757,11 @@ d3d12_readback_resolve = true
 0x827C0220 = { name = "rex_sub_827C0220", size = 0xE0 }
 0x827C0300 = { name = "rex_sub_827C0300", size = 0x124 }
 0x827C0428 = { name = "rex_sub_827C0428", size = 0xC4 }
-0x827C04F8 = { name = "rex_sub_827C04F8", size = 0x64 }
+0x827C04F8 = { name = "Symbol__PreInit", size = 0x64 }
 0x827C055C = { name = "rex_sub_827C055C", size = 0x28 }
 0x827C0588 = { name = "rex_sub_827C0588", size = 0x130 }
 0x827C06B8 = { name = "rex_sub_827C06B8", size = 0x6C }
-0x827C0728 = { name = "rex_sub_827C0728", size = 0x8C }
+0x827C0728 = { name = "Symbol__Symbol", size = 0x8C }
 0x827C07B8 = { name = "rex_sub_827C07B8", size = 0xE8 }
 0x827C08A8 = { name = "rex_sub_827C08A8", size = 0x98 }
 0x827C0940 = { name = "rex_sub_827C0940", size = 0x50 }
@@ -46859,7 +46859,7 @@ d3d12_readback_resolve = true
 0x827C31D8 = { name = "rex_sub_827C31D8", size = 0x28 }
 0x827C3208 = { name = "rex_sub_827C3208", size = 0x108 }
 0x827C3310 = { name = "rex_sub_827C3310", size = 0x28 }
-0x827C3340 = { name = "rex_sub_827C3340", size = 0xB4 }
+0x827C3340 = { name = "FileStream____ct", size = 0xB4 }
 0x827C33F4 = { name = "rex_sub_827C33F4", size = 0x28 }
 0x827C341C = { name = "rex_sub_827C341C", size = 0x2C }
 0x827C3450 = { name = "rex_sub_827C3450", size = 0x58 }
@@ -46929,10 +46929,10 @@ d3d12_readback_resolve = true
 0x827C4E08 = { name = "rex_sub_827C4E08", size = 0x18 }
 0x827C4E20 = { name = "rex_sub_827C4E20", size = 0x38 }
 0x827C4E58 = { name = "rex_sub_827C4E58", size = 0x4C }
-0x827C4EA8 = { name = "rex_sub_827C4EA8", size = 0xAC }
-0x827C4F58 = { name = "rex_sub_827C4F58", size = 0xFC }
-0x827C5058 = { name = "rex_sub_827C5058", size = 0x40 }
-0x827C5098 = { name = "rex_sub_827C5098", size = 0x64 }
+0x827C4EA8 = { name = "BinStream__Read", size = 0xAC }
+0x827C4F58 = { name = "BinStream__Write", size = 0xFC }
+0x827C5058 = { name = "BinStream__ReadEndian", size = 0x40 }
+0x827C5098 = { name = "BinStream__WriteEndian", size = 0x64 }
 0x827C5100 = { name = "rex_sub_827C5100", size = 0x64 }
 0x827C5168 = { name = "rex_sub_827C5168", size = 0x64 }
 0x827C51D0 = { name = "rex_sub_827C51D0", size = 0x68 }
@@ -47088,7 +47088,7 @@ d3d12_readback_resolve = true
 0x827C9610 = { name = "rex_sub_827C9610", size = 0x74 }
 0x827C9684 = { name = "rex_sub_827C9684", size = 0x28 }
 0x827C96AC = { name = "rex_sub_827C96AC", size = 0x2C }
-0x827C96D8 = { name = "rex_sub_827C96D8", size = 0x74 }
+0x827C96D8 = { name = "Locale__Localize", size = 0x74 }
 0x827C9750 = { name = "rex_sub_827C9750", size = 0x70 }
 0x827C97C8 = { name = "rex_sub_827C97C8", size = 0x1E0 }
 0x827C99A8 = { name = "rex_sub_827C99A8", size = 0x20 }
@@ -47110,7 +47110,7 @@ d3d12_readback_resolve = true
 0x827CA3B0 = { name = "rex_sub_827CA3B0", size = 0xC }
 0x827CA3C0 = { name = "rex_sub_827CA3C0", size = 0x34 }
 0x827CA3F8 = { name = "rex_sub_827CA3F8", size = 0x88 }
-0x827CA488 = { name = "rex_sub_827CA488", size = 0x17C }
+0x827CA488 = { name = "ChunkStream____ct", size = 0x17C }
 0x827CA604 = { name = "rex_sub_827CA604", size = 0x28 }
 0x827CA62C = { name = "rex_sub_827CA62C", size = 0x2C }
 0x827CA658 = { name = "rex_sub_827CA658", size = 0x8 }
@@ -47609,7 +47609,7 @@ d3d12_readback_resolve = true
 0x827D7828 = { name = "rex_sub_827D7828", size = 0x4C }
 0x827D7878 = { name = "rex_sub_827D7878", size = 0x150 }
 0x827D79C8 = { name = "rex_sub_827D79C8", size = 0x16C }
-0x827D7B38 = { name = "rex_sub_827D7B38", size = 0x130 }
+0x827D7B38 = { name = "CacheMgrXbox__MountAsync", size = 0x130 }
 0x827D7C68 = { name = "rex_sub_827D7C68", size = 0xE4 }
 0x827D7D50 = { name = "rex_sub_827D7D50", size = 0xDC }
 0x827D7E38 = { name = "rex_sub_827D7E38", size = 0x144 }
@@ -47802,7 +47802,7 @@ d3d12_readback_resolve = true
 0x827DD0E8 = { name = "rex_sub_827DD0E8", size = 0x10 }
 0x827DD0F8 = { name = "rex_sub_827DD0F8", size = 0xC }
 0x827DD108 = { name = "rex_sub_827DD108", size = 0xC }
-0x827DD118 = { name = "rex_sub_827DD118", size = 0x20 }
+0x827DD118 = { name = "TrackPanelDirBase__UpdateTrackSpeed", size = 0x20 }
 0x827DD138 = { name = "rex_sub_827DD138", size = 0x20 }
 0x827DD158 = { name = "rex_sub_827DD158", size = 0xE0 }
 0x827DD238 = { name = "rex_sub_827DD238", size = 0x5C }
@@ -56728,7 +56728,7 @@ d3d12_readback_resolve = true
 0x82A8EC08 = { name = "rex_sub_82A8EC08", size = 0x28 }
 0x82A8EC48 = { name = "rex_sub_82A8EC48", size = 0x40 }
 0x82A8EC88 = { name = "rex_sub_82A8EC88", size = 0x10 }
-0x82A8ECA8 = { name = "rex_sub_82A8ECA8", size = 0xC }
+0x82A8ECA8 = { name = "Inet__UseSecureSockets", size = 0xC }
 0x82A8ECB8 = { name = "rex_sub_82A8ECB8", size = 0x14 }
 0x82A8ECD0 = { name = "rex_sub_82A8ECD0", size = 0xC }
 0x82A8ECE0 = { name = "rex_sub_82A8ECE0", size = 0x12C }
@@ -58935,7 +58935,7 @@ d3d12_readback_resolve = true
 0x82AEB7B0 = { name = "rex_sub_82AEB7B0", size = 0x3C }
 0x82AEB7F0 = { name = "rex_sub_82AEB7F0", size = 0x6C }
 0x82AEB860 = { name = "rex_sub_82AEB860", size = 0x28 }
-0x82AEB888 = { name = "rex_sub_82AEB888", size = 0x14C }
+0x82AEB888 = { name = "Quazal__InetAddress__SetAddress", size = 0x14C }
 0x82AEB9D8 = { name = "rex_sub_82AEB9D8", size = 0x18 }
 0x82AEB9F0 = { name = "rex_sub_82AEB9F0", size = 0x18 }
 0x82AEBA08 = { name = "rex_sub_82AEBA08", size = 0x10 }
@@ -59257,7 +59257,7 @@ d3d12_readback_resolve = true
 0x82AF9080 = { name = "rex_sub_82AF9080", size = 0x10C }
 0x82AF9190 = { name = "rex_sub_82AF9190", size = 0xDC }
 0x82AF9270 = { name = "rex_sub_82AF9270", size = 0x48 }
-0x82AF92B8 = { name = "rex_sub_82AF92B8", size = 0x70 }
+0x82AF92B8 = { name = "Quazal__StepSequenceJob__SetStep", size = 0x70 }
 0x82AF9328 = { name = "rex_sub_82AF9328", size = 0x94 }
 0x82AF93C0 = { name = "rex_sub_82AF93C0", size = 0x5C }
 0x82AF9420 = { name = "rex_sub_82AF9420", size = 0x64 }
@@ -60111,7 +60111,7 @@ d3d12_readback_resolve = true
 0x82B1A518 = { name = "rex_sub_82B1A518", size = 0xC4 }
 0x82B1A5E0 = { name = "rex_sub_82B1A5E0", size = 0x6C }
 0x82B1A650 = { name = "rex_sub_82B1A650", size = 0x1DC }
-0x82B1A830 = { name = "rex_sub_82B1A830", size = 0x1AC }
+0x82B1A830 = { name = "Quazal__Socket__Bind", size = 0x1AC }
 0x82B1A9E0 = { name = "rex_sub_82B1A9E0", size = 0xB0 }
 0x82B1AA90 = { name = "rex_sub_82B1AA90", size = 0xB4 }
 0x82B1AB68 = { name = "rex_sub_82B1AB68", size = 0x10 }
@@ -60951,7 +60951,7 @@ d3d12_readback_resolve = true
 0x82B396C4 = { name = "rex_sub_82B396C4", size = 0x28 }
 0x82B396F0 = { name = "rex_sub_82B396F0", size = 0x38 }
 0x82B39728 = { name = "rex_sub_82B39728", size = 0x84 }
-0x82B397B0 = { name = "rex_sub_82B397B0", size = 0x5C }
+0x82B397B0 = { name = "Quazal__QueuingSocket__Bind", size = 0x5C }
 0x82B39810 = { name = "rex_sub_82B39810", size = 0x6C }
 0x82B39880 = { name = "rex_sub_82B39880", size = 0x6C }
 0x82B398F8 = { name = "rex_sub_82B398F8", size = 0xAC }
@@ -63073,7 +63073,7 @@ d3d12_readback_resolve = true
 0x82B89938 = { name = "rex_sub_82B89938", size = 0x54 }
 0x82B8998C = { name = "rex_sub_82B8998C", size = 0x28 }
 0x82B899B8 = { name = "rex_sub_82B899B8", size = 0x4C }
-0x82B89A08 = { name = "rex_sub_82B89A08", size = 0xBC }
+0x82B89A08 = { name = "NgPostProc__DoPost", size = 0xBC }
 0x82B89AD0 = { name = "rex_sub_82B89AD0", size = 0x6C }
 0x82B89B3C = { name = "rex_sub_82B89B3C", size = 0x28 }
 0x82B89B68 = { name = "rex_sub_82B89B68", size = 0x58 }
@@ -63650,7 +63650,7 @@ d3d12_readback_resolve = true
 0x82B9B7EC = { name = "rex_sub_82B9B7EC", size = 0x20 }
 0x82B9B80C = { name = "rex_sub_82B9B80C", size = 0x28 }
 0x82B9B838 = { name = "rex_sub_82B9B838", size = 0x48 }
-0x82B9B880 = { name = "rex_sub_82B9B880", size = 0x6C }
+0x82B9B880 = { name = "GemManager__GetWidgetByName", size = 0x6C }
 0x82B9B8F8 = { name = "rex_sub_82B9B8F8", size = 0x60 }
 0x82B9B960 = { name = "rex_sub_82B9B960", size = 0x28 }
 0x82B9B990 = { name = "rex_sub_82B9B990", size = 0x60 }
@@ -63940,7 +63940,7 @@ d3d12_readback_resolve = true
 0x82BAA2B8 = { name = "rex_sub_82BAA2B8", size = 0x40 }
 0x82BAA2F8 = { name = "rex_sub_82BAA2F8", size = 0x8 }
 0x82BAA300 = { name = "rex_sub_82BAA300", size = 0x8 }
-0x82BAA308 = { name = "rex_sub_82BAA308", size = 0xAC }
+0x82BAA308 = { name = "TrackConfig__GetSlotColor", size = 0xAC }
 0x82BAA3B8 = { name = "rex_sub_82BAA3B8", size = 0x44 }
 0x82BAA400 = { name = "rex_sub_82BAA400", size = 0x8C }
 0x82BAA490 = { name = "rex_sub_82BAA490", size = 0x48 }
