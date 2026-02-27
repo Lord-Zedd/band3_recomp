@@ -62,7 +62,7 @@ extern "C" PPC_FUNC(CamShot__Shake) {
 	ctx.r27.u64 = ctx.r8.u64;
 	// bl TaskMgr::DeltaSeconds
 	ctx.lr = 0x824BDBB8;
-	rex_sub_82747940(ctx, base);
+	TaskMgr__DeltaSeconds(ctx, base);
 
 	// lis r11,-32256
 	ctx.r11.s64 = -2113929216;
@@ -534,7 +534,7 @@ loc_824BDDB0:
 	PPC_STORE_U32(ctx.r30.u32 + 8, temp.u32);
 	// bl pow
 	ctx.lr = 0x824BDE84;
-	rex_sub_8282BDD8(ctx, base);
+	band_pow(ctx, base);
 	// frsp f0,f1
 	ctx.fpscr.disableFlushMode();
 	ctx.f0.f64 = double(float(ctx.f1.f64));

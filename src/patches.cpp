@@ -19,10 +19,10 @@ void UpdateArkHook(PPCRegister& r4) {
 }
 
 //replace calls to 822703D0 (bad) with 822703A8 (good)
-extern "C" PPC_FUNC(rex_sub_822703D0)
+extern "C" PPC_FUNC(App__Run)
 {
 	REXLOG_INFO("Patching debugger trap");
-	rex_sub_822703A8(ctx, base);
+	RunFunc_AppRunWithoutDebugging(ctx, base);
 }
 
 // OptionBool(char* optionName, bool default) - check host cmd line aargs for boolean options
@@ -96,4 +96,9 @@ extern "C" PPC_FUNC(Rnd__PreInit)
 extern "C" PPC_FUNC(StreamChecksum__ValidateChecksum)
 {
 	ctx.r3.u64 = 1;
+}
+// file checksum patch, just return
+extern "C" PPC_FUNC(PlatformMgr__SetDiskError)
+{
+	return;
 }
