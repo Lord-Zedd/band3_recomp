@@ -16,7 +16,7 @@ d3d12_readback_resolve = true
 0x82270018 = { name = "App__DrawRegular", size = 0x68 }
 0x82270080 = { name = "App__RunWithoutDebugging", size = 0x108 }
 0x82270188 = { name = "Timer__SplitMs", size = 0x7C }
-0x82270210 = { name = "FilePath____ct", size = 0x50 }
+0x82270210 = { name = "FilePath__ct", size = 0x50 }
 0x82270260 = { name = "rex_sub_82270260", size = 0x28 }
 0x82270288 = { name = "rex_sub_82270288", size = 0xC }
 0x82270298 = { name = "rex_sub_82270298", size = 0x10 }

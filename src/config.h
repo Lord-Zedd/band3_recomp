@@ -13,6 +13,7 @@ struct Config {
     long width = 1280;
     long height = 720;
     bool fast_start = false;
+    std::string lang;
     bool disable_metamusic = false;
     bool debug_overlay = true;
     std::string log_level = "info";
