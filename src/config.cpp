@@ -43,6 +43,12 @@ void LoadConfig(const char* path) {
         reader.GetBoolean("game", "disable_metamusic", g_config.disable_metamusic);
     g_config.lang =
         reader.Get("game", "lang", g_config.lang);
+    g_config.disable_approximate_lights =
+        reader.GetBoolean("graphics", "disable_approximate_lights", g_config.disable_approximate_lights);
+    g_config.disable_hair_shader =
+        reader.GetBoolean("graphics", "disable_hair_shader", g_config.disable_hair_shader);
+    g_config.fullbright =
+        reader.GetBoolean("graphics", "fullbright", g_config.fullbright);
     g_config.debug_overlay =
         reader.GetBoolean("debug", "overlay", g_config.debug_overlay);
     g_config.log_level =
