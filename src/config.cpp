@@ -47,6 +47,8 @@ void LoadConfig(const char* path) {
         reader.GetBoolean("graphics", "disable_approximate_lights", g_config.disable_approximate_lights);
     g_config.disable_hair_shader =
         reader.GetBoolean("graphics", "disable_hair_shader", g_config.disable_hair_shader);
+    g_config.compress_character_textures =
+        reader.GetBoolean("graphics", "compress_character_textures", g_config.compress_character_textures);
     g_config.fullbright =
         reader.GetBoolean("graphics", "fullbright", g_config.fullbright);
     g_config.debug_overlay =

@@ -18,6 +18,7 @@ struct Config {
     bool disable_approximate_lights = true;
     bool disable_hair_shader = false;
     bool fullbright = false;
+    bool compress_character_textures = false;
     bool debug_overlay = true;
     std::string log_level = "info";
 };

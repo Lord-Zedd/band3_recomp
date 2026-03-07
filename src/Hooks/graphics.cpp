@@ -6,6 +6,7 @@
 
 extern "C" void __imp__BoxMapLighting__ApplyQueuedLights(PPCContext& ctx, uint8_t* base);
 extern "C" void __imp__RndMat__Load(PPCContext& ctx, uint8_t* base);
+extern "C" void __imp__OutfitConfig__CompressTextures(PPCContext& ctx, uint8_t* base);
 
 extern "C" PPC_FUNC(BoxMapLighting__ApplyQueuedLights)
 {
@@ -31,4 +32,12 @@ extern "C" PPC_FUNC(RndMat__Load)
 		// force useEnviron to be 0
         PPC_STORE_U8(this_addr + 0x99, 0);
     }
+}
+
+extern "C" PPC_FUNC(OutfitConfig__CompressTextures)
+{
+    if (!band3::GetConfig().compress_character_textures) {
+        return;
+    }
+    __imp__OutfitConfig__CompressTextures(ctx, base);
 }
